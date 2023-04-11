@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Roboto;
+}
+.pointer {
+    cursor: pointer;    
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.capitalize {
+    text-transform: capitalize !important;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2F80ED;
+    border-radius: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    margin: 0;
+}
+@media only screen and (min-width: 768px){
+    .cardContent{
+        width: 500px !important;
+    }
+}   
